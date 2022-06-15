@@ -1,0 +1,41 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap');
+
+body {
+    margin: 0%;
+    font-family: 'Quicksand', sans-serif;
+}
+
+a, u {
+    text-decoration: none;
+    color: black;
+  }
+
+.content {
+    max-width: 1300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.card-chapter {
+    transition: 0.1s linear;
+}
+
+.card-chapter:hover {
+    transition: 0.1s linear;
+    border-color: #575757;
+}
+
+.numberCircle {
+    background: #e3e3e3;
+    border-radius: 50%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    color: #6e6e6e;
+    display: inline-block;
+    font-weight: bold;
+    line-height: 40px;
+    margin-right: 5px;
+    text-align: center;
+    min-width: 40px;
+}
